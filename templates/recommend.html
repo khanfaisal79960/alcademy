@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="text-align:center">Recommended Courses</h2>
+<div class="course-grid">
+  {% for course in courses %}
+  <div class="course-card">
+    <h3>{{ course.course_title }}</h3>
+    <p><strong>Subject:</strong> {{ course.subject }}</p>
+    <p><strong>Price:</strong> {{ course.price }}</p>
+    <p><strong>Level:</strong> {{ course.level }}</p>
+    <p><strong>Lectures:</strong> {{ course.num_lectures }}</p>
+    <p><strong>Duration:</strong> {{ course.content_duration }}</p>
+    <a href="{{ course.url }}" target="_blank">View Course</a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

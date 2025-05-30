@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alcademy - Course Recommender</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="icon" href="https://fav.farm/📚">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="content-wrapper">
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer class="footer">
+    <p>Made with ❤️ by Faisal Khan</p>
+    <div class="footer-icons">
+      <a href="https://khanfaisal.netlify.app" target="_blank"><i class="fas fa-globe"></i></a>
+      <a href="https://www.linkedin.com/in/khanfaisal79960" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://medium.com/@khanfaisal79960" target="_blank"><i class="fab fa-medium"></i></a>
+      <a href="https://instagram.com/mr._perfect_1004" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/khanfaisal79960" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+</body>
+</html>

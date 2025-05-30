@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="hero">
+  <h1>Welcome to Alcademy</h1>
+  <p>Find the perfect Udemy course based on your topic of interest</p>
+  <form action="/recommend" method="post">
+    <input type="text" name="topic" placeholder="Enter a topic (e.g., Python, Music, Design)" required>
+    <button type="submit">Recommend</button>
+  </form>
+</div>
+{% endblock %}
