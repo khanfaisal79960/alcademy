@@ -2,9 +2,7 @@
 
 **Alcademy** is a topic-based Udemy course recommendation engine built with **Flask (Python 3.13.2)**. It provides users with curated courses from various domains like Web Development, Business, Design, and Music based on their input query.
 
-<div align="center">
-  <img src="assets/screenshot_1.png" width="700"/>
-</div>
+
 
 ---
 
@@ -94,7 +92,3 @@ Alcademy/
 - 💻 [GitHub](https://github.com/khanfaisal79960)
 
 ---
-
-## 📜 License
-
-MIT License — free to use for personal and commercial purposes.
