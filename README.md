@@ -3,7 +3,7 @@
 **Alcademy** is a topic-based Udemy course recommendation engine built with **Flask (Python 3.13.2)**. It provides users with curated courses from various domains like Web Development, Business, Design, and Music based on their input query.
 
 
-![Cover](./assets/cover_page.png)
+![Cover](./assets/cover_image.png)
 
 ---
 
