@@ -74,8 +74,8 @@ Alcademy/
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/khanfaisal79960/VibeBlog.git
-cd VibeBlog
+git clone https://github.com/khanfaisal79960/Alcademy.git
+cd Alcademy
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
