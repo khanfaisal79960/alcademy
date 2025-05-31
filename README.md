@@ -75,6 +75,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Backend**: Flask (Python 3.13.2)
