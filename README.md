@@ -32,7 +32,10 @@ Alcademy/
 │
 ├── app.py
 ├── model.joblib
+├── course.pkl                  # Pickled course metadata or model
+├── vectorizer.joblib          # Vectorizer for text features
 ├── requirements.txt
+├── vercel.json                # Vercel deployment configuration
 │
 ├── static/
 │   ├── styles.css
@@ -44,13 +47,16 @@ Alcademy/
 │   ├── 404.html
 │
 ├── assets/
+│   ├── cover_image.png
 │   ├── screenshot_1.png
 │   └── screenshot_2.png
+│
 ├── data/
 │   ├── 3.1-data-sheet-udemy-courses-business-courses.csv
-│   └── 3.1-data-sheet-udemy-courses-design-courses.csv
-    ├── 3.1-data-sheet-udemy-courses-music-courses
-    └── 3.1-data-sheet-udemy-courses-web-development
+│   ├── 3.1-data-sheet-udemy-courses-design-courses.csv
+│   ├── 3.1-data-sheet-udemy-courses-music-courses
+│   └── 3.1-data-sheet-udemy-courses-web-development
+
 
 
 ```
